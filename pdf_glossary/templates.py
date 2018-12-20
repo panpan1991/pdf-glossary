@@ -224,8 +224,9 @@ hr {
 }
 """
 
-browser_wrapper_open = """<div class="twocol">"""
-browser_wrapper_close = """</div>"""
+browser_wrapper_open = """<div class="twocol"><table>"""
+
+browser_wrapper_close = """</table></div>"""
 
 browser_script_print = """\
 <script>
@@ -252,16 +253,13 @@ xpdf_static = """\
 
 card_element_table = """\
 <div class="card {exportclass}">
-    <table>
-        <tr>
-            <td class="count" {countstyle}>{count}.</td>
-            <td class="question">{question}</td>
-            <td class="spacer">&nbsp;</td>
-            <td class="answer">{answer}</td>
-        </tr>
-    </table>
+    <tr>
+         <td class="count" {countstyle}>{count}.</td>
+         <td class="question">{question}</td>
+         <td class="spacer">&nbsp;</td>
+         <td class="answer">{answer}</td>
+     </tr>
 </div>
-<hr>
 """
 
 card_element_card = """
