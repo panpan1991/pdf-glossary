@@ -32,7 +32,7 @@ The add-on also has limited abilites to export some of your scheduling informati
 
 *Overview*
 
-Depending on your card templates and the type of formatting you use, it could be important to adjust the styling of your content before exporting it. For these use cases the add-on comes with a user-customizable CSS file that is located under `user_data/user.css` in the add-on directory. CSS rules you add to this file will be respected both for HTML and CSS exports. The file is read anew on each export, so you can edit it while running Anki in parallel.
+Depending on your card templates and the type of formatting you use, it could be important to adjust the styling of your content before exporting it. For these use cases the add-on comes with a user-customizable CSS file that is located under `addons/pdf_glossary/user_data/user.css` in the add-on directory. CSS rules you add to this file will be respected both for HTML and CSS exports. The file is read anew on each export, so you can edit it while running Anki in parallel.
 
 Please note, however, that PDF exports only support a subset of CSS rules. These are listed in [xhtml2pdf`s reference guide](https://xhtml2pdf.readthedocs.io/en/latest/reference.html#supported-css-properties).
 
